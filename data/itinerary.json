@@ -1,0 +1,62 @@
+{
+  "title": "Shadows of Kowloon \u2013 Haunted Streets & Forgotten Souls",
+  "itinerary": [
+    {
+      "stop": "St Andrew\u2019s Church (Jordan)",
+      "historical_facts": "Built in 1906 in Gothic Revival style; survived WWII bombings; still an active Anglican parish.",
+      "legend": "Parishioners whisper about sudden chills and faint organ music when the church is empty.",
+      "storytelling": "Red brick and stained glass evoke quiet echoes of the past. Some visitors feel a sudden hush\u2014like unseen parishioners gathering for a midnight mass."
+    },
+    {
+      "stop": "Temple Street Night Market",
+      "historical_facts": "Established in the early 20th century; famous for fortune tellers and street food; a hub for nightlife.",
+      "legend": "Vendors claim ghostly customers vanish before paying; fortune tellers sense spirits seeking answers.",
+      "storytelling": "Under neon glow, the market hums with life. Yet listen closely\u2014sometimes the spirits come to bargain too."
+    },
+    {
+      "stop": "Tin Hau Temple (Yau Ma Tei)",
+      "historical_facts": "Built in the mid-19th century; dedicated to Tin Hau, Goddess of the Sea; declared a historic monument.",
+      "legend": "Spirits of drowned sailors linger near the altar; fortune tellers report strange presences after dark.",
+      "storytelling": "Incense curls like spirits rising. Behind the serene deity, shadows coil in corners, carrying tales of sailors lost to storms."
+    },
+    {
+      "stop": "Yau Ma Tei Theatre",
+      "historical_facts": "Opened in 1930 as a cinema; now a Cantonese opera venue; one of Hong Kong\u2019s oldest surviving theatres.",
+      "legend": "Projectionists reported phantom applause and flickering lights in empty halls.",
+      "storytelling": "The flicker of old reels never truly fades. Some swear the balcony seats are never vacant\u2014ghostly patrons linger, waiting for the next show."
+    },
+    {
+      "stop": "Shanghai Street",
+      "historical_facts": "One of Kowloon\u2019s oldest streets; lined with tong lau (tenement buildings) from the early 1900s.",
+      "legend": "Wartime screams said to echo in abandoned upper floors; footsteps heard in empty corridors.",
+      "storytelling": "Look up at peeling balconies. Imagine footsteps pacing above, unseen yet insistent, as if history refuses to fade."
+    },
+    {
+      "stop": "Jordan Road (near Kowloon Walled City site)",
+      "historical_facts": "Once the gateway to Kowloon Walled City, a lawless enclave demolished in 1993; now a park.",
+      "legend": "Locals claim spirits of former residents wander the area, searching for vanished alleys.",
+      "storytelling": "Here stood a labyrinth of lawlessness. The Walled City was a maze of shadows, where life and death intertwined. Though demolished, its ghosts linger still."
+    },
+    {
+      "stop": "Mei Ho House",
+      "historical_facts": "Built in 1954 as part of Shek Kip Mei resettlement after the great fire; now a heritage museum.",
+      "legend": "Residents once spoke of spirits roaming cramped corridors at night.",
+      "storytelling": "Mei Ho House stands as a relic of resilience. But in its quiet corners, whispers of hardship linger\u2014echoes of lives uprooted by fire and fate."
+    },
+    {
+      "stop": "Man Fat Seafood Restaurant",
+      "historical_facts": "A classic Cantonese seafood eatery in Sham Shui Po; known for traditional dishes and late-night dining.",
+      "legend": "Old-timers joke about \u201chungry ghosts\u201d joining midnight feasts during Hungry Ghost Festival.",
+      "storytelling": "After haunting tales, feast like locals. But beware\u2014the midnight diners may not all be among the living\u2026"
+    }
+  ],
+  "walking_times": {
+    "St Andrew\u2019s \u2192 Temple Street": "~10 mins",
+    "Temple Street \u2192 Tin Hau Temple": "~5 mins",
+    "Tin Hau \u2192 Yau Ma Tei Theatre": "~3 mins",
+    "Theatre \u2192 Shanghai Street": "~5 mins",
+    "Shanghai Street \u2192 Jordan Road": "~10 mins",
+    "Jordan Road \u2192 Mei Ho House": "~20 mins (or short taxi)",
+    "Mei Ho House \u2192 Man Fat Seafood": "~10 mins"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St Andrew\u2019s Church"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.172,
+          22.305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Temple Street Night Market"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.169,
+          22.306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tin Hau Temple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.168,
+          22.307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yau Ma Tei Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.167,
+          22.308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanghai Street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.166,
+          22.309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jordan Road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.165,
+          22.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mei Ho House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.164,
+          22.311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Man Fat Seafood Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.163,
+          22.312
+        ]
+      }
+    }
+  ]
+}

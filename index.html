@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shadows of Kowloon</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 1rem; background: #111; color: #eee; }
+    h1, h2 { color: #f2c94c; }
+    section { margin-bottom: 2rem; }
+    #map { height: 400px; margin-top: 2rem; border: 2px solid #444; }
+  </style>
+</head>
+<body>
+  <h1>Shadows of Kowloon – Haunted Streets & Forgotten Souls</h1>
+  <div id="app">Loading tour content...</div>
+
+  <h2>Interactive Map</h2>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Load and display itinerary content
+    fetch('data/itinerary.json')
+      .then(response => response.json())
+      .then(data => {
+        const app = document.getElementById('app');
+        data.itinerary.forEach(stop => {
+          const section = document.createElement('section');
+          section.innerHTML = `
+            <h2>${stop.stop}</h2>
+            <p><strong>Historical Facts:</strong> ${stop.historical_facts}</p>
+            <p><strong>Legend:</strong> ${stop.legend}</p>
+            <p><em>${stop.storytelling}</em></p>
+          `;
+          app.appendChild(section);
+        });
+
+        const walk = document.createElement('section');
+        walk.innerHTML = '<h2>Walking Times</h2><ul>' +
+          Object.entries(data.walking_times).map(([k, v]) => `<li>${k}: ${v}</li>`).join('') +
+          '</ul>';
+        app.appendChild(walk);
+      });
+
+    // Initialise Leaflet map
+    const map = L.map('map').setView([22.31, 114.17], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Load GeoJSON and add markers
+    fetch('kowloon_map.geojson')
+      .then(res => res.json())
+      .then(data => {
+        L.geoJSON(data, {
+          onEachFeature: function (feature, layer) {
+            layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
+          }
+        }).addTo(map);
+      });
+  </script>
+</body>
+</html>
